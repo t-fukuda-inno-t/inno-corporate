@@ -1,0 +1,22 @@
+{
+  "trailingComma": "es5",
+  "semi": true,
+  "singleQuote": false,
+  "overrides": [
+    {
+      "files": "*.{htm,html}",
+      "options": {
+        "htmlWhitespaceSensitivity": "strict",
+        "parser": "html"
+      }
+    },
+    {
+      "files": "*.{cjs,js,mjs}",
+      "options": { "singleQuote": true }
+    },
+    {
+      "files": "*.code-workspace",
+      "options": { "parser": "json" }
+    }
+  ]
+}

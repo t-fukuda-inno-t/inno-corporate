@@ -1,0 +1,20 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jquery": true,
+    "node": true
+  },
+  "extends": ["eslint:recommended", "prettier","next/core-web-vitals"],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "plugins": ["node"],
+  "rules": {
+    "no-control-regex": "off",
+    "no-unused-vars": "off",
+    "no-var": "warn",
+    "prefer-const": "warn"
+  }
+}

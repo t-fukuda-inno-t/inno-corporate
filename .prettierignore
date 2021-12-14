@@ -1,0 +1,5 @@
+# Generate output
+dist
+
+# Library directories
+lib

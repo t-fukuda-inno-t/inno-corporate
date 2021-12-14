@@ -1,0 +1,9 @@
+# Generate output
+dist
+
+# Library directories
+lib
+
+# Unique code files
+_hack.*
+_viewportscale.*

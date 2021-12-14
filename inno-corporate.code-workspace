@@ -1,0 +1,41 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "css.validate": false,
+    "editor.codeActionsOnSave": { "source.fixAll.eslint": true },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "eslint.enable": true,
+    "htmlhint.enable": true,
+    "scss.validate": false,
+    "stylelint.enable": true,
+    "workbench.colorCustomizations": {
+      "activityBar.background": "#ff0000",
+      "activityBar.foreground": "#000",
+      "titleBar.activeBackground": "#ff0000",
+      "titleBar.activeForeground": "#000"
+    },
+    "[css]": {
+      "editor.codeActionsOnSave": { "source.fixAll.stylelint": true }
+    },
+    "[sass]": {
+      "editor.codeActionsOnSave": { "source.fixAll.stylelint": true }
+    },
+    "[scss]": {
+      "editor.codeActionsOnSave": { "source.fixAll.stylelint": true }
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode",
+      "EditorConfig.EditorConfig",
+      "mkaufman.htmlhint",
+      "stylelint.vscode-stylelint"
+    ]
+  }
+}

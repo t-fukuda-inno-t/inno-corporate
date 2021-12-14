@@ -1,0 +1,46 @@
+{
+  "name": "inno-corporate",
+  "description": "",
+  "version": "1.0.0",
+  "author": "Fukuda Taichi",
+  "bugs": {
+    "url": "https://github.com/fukuda019389/inno-corporate/issues"
+  },
+  "dependencies": {
+    "next": "12.0.7",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "8.4.1",
+    "eslint-config-next": "12.0.7",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-node": "^11.1.0",
+    "fixpack": "^4.0.0",
+    "htmlhint": "^1.0.0",
+    "npm-check-updates": "^12.0.3",
+    "prettier": "^2.5.1",
+    "stylelint": "^14.1.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-recess-order": "^3.0.0",
+    "stylelint-config-recommended": "^6.0.0",
+    "stylelint-config-recommended-scss": "^5.0.2",
+    "stylelint-scss": "^4.0.1"
+  },
+  "homepage": "https://github.com/fukuda019389/inno-corporate#readme",
+  "keywords": [],
+  "license": "ISC",
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fukuda019389/inno-corporate.git"
+  },
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "lint": "next lint",
+    "play": "touch playgrounds.mjs ; node playgrounds.mjs",
+    "start": "next start",
+    "update": "ncu -u && yarn install && fixpack"
+  }
+}
